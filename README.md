@@ -2,6 +2,8 @@
 [forumurl]: https://forum.linuxserver.io
 [ircurl]: https://www.linuxserver.io/irc/
 [podcasturl]: https://www.linuxserver.io/podcast/
+[appurl]: https://couchpota.to/
+[hub]: https://hub.docker.com/r/lsioarmhf/couchpotato-aarch64/
 
 [![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)][linuxserverurl]
 
@@ -12,12 +14,10 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 
 # lsioarmhf/couchpotato-aarch64
 [![](https://images.microbadger.com/badges/version/lsioarmhf/couchpotato-aarch64.svg)](https://microbadger.com/images/lsioarmhf/couchpotato-aarch64 "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/lsioarmhf/couchpotato-aarch64.svg)](http://microbadger.com/images/lsioarmhf/couchpotato-aarch64 "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/couchpotato-aarch64.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/couchpotato-aarch64.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-arm64/lsioarm64-couchpotato)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-arm64/job/lsioarm64-couchpotato/)
-[hub]: https://hub.docker.com/r/lsioarmhf/couchpotato-aarch64/
 
 [CouchPotato](https://couchpota.to) is an automatic NZB and torrent downloader. You can keep a "movies I want" list and it will search for NZBs/torrents of these movies every X hours. Once a movie is found, it will send it to SABnzbd or download the torrent to a specified directory.
 
-[![couchpotato](https://couchpota.to/media/images/full.png)][couchurl]
-[couchurl]: https://couchpota.to/
+[![couchpotato](https://couchpota.to/media/images/full.png)][appurl]
 
 ## Usage
 

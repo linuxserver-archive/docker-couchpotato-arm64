@@ -77,4 +77,5 @@ In this instance `PUID=1001` and `PGID=1001`. To find yours use `id user` as bel
 
 ## Versions
 
++ **30.05.17:** Bump to alpine 3.6.
 + **10.12.16:** Initial Release.

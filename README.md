@@ -79,6 +79,7 @@ In this instance `PUID=1001` and `PGID=1001`. To find yours use `id user` as bel
 
 ## Versions
 
++ **10.01.18:** Bump to alpine 3.7.
 + **20.07.17:** Internal git pull instead of at runtime, add UMASK_SET variable.
 + **30.05.17:** Bump to alpine 3.6.
 + **10.12.16:** Initial Release.
